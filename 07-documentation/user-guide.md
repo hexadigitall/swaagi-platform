@@ -1,19 +1,19 @@
-# DARA Platform - User Guide
+# SWAAGI Platform - User Guide
 
-Welcome to DARA - your Beautiful AI Fashion Platform that celebrates cultural diversity and sustainable fashion choices!
+Welcome to SWAAGI - your Beautiful AI Fashion Platform that celebrates cultural diversity and sustainable fashion choices!
 
 ## Getting Started
 
 ### Creating Your Account
 
-1. **Visit DARA**: Go to [dara.fashion](https://dara.fashion)
+1. **Visit SWAAGI**: Go to [swaagi.fashion](https://swaagi.fashion)
 2. **Sign Up**: Click "Get Started" and create your account
 3. **Cultural Profile**: Set up your cultural preferences and style interests
 4. **Personalization**: Tell us about your fashion preferences and body type
 
 ### Your Cultural Profile
 
-DARA respects and celebrates your cultural heritage. When setting up your profile:
+SWAAGI respects and celebrates your cultural heritage. When setting up your profile:
 
 - **Cultural Background**: Share your cultural heritage (optional but helpful)
 - **Style Preferences**: Choose from traditional, modern, or fusion styles
@@ -34,7 +34,7 @@ DARA respects and celebrates your cultural heritage. When setting up your profil
 ```
 You: "I need something elegant for my sister's wedding that honors our Nigerian heritage"
 
-DARA AI: "I'd love to help you find something beautiful for this special occasion! 
+SWAAGI AI: "I'd love to help you find something beautiful for this special occasion! 
 Here are some culturally-respectful options:
 
 🌟 Modern Ankara Dress with Contemporary Cut
@@ -79,7 +79,7 @@ Here are some culturally-respectful options:
 
 ### 4. Personalized Style Learning
 
-#### How DARA Learns About You
+#### How SWAAGI Learns About You
 - **Preference Tracking**: Your likes and dislikes improve recommendations
 - **Style Evolution**: Recommendations adapt as your style changes
 - **Cultural Journey**: Learn about new cultural fashion elements at your pace
@@ -110,7 +110,7 @@ Here are some culturally-respectful options:
 ### Advanced Features
 
 #### Virtual Styling Sessions
-- **Live Chat**: Real-time styling advice from DARA's AI
+- **Live Chat**: Real-time styling advice from SWAAGI's AI
 - **Photo Analysis**: Upload outfit photos for detailed feedback
 - **Occasion Planning**: Get complete looks for specific events
 - **Cultural Consultation**: Extra care for culturally significant occasions
@@ -189,13 +189,13 @@ Here are some culturally-respectful options:
 - **Live Chat**: Available 24/7 for styling questions
 - **Cultural Consultation**: Schedule sessions for sensitive occasions
 - **Technical Support**: Help with platform features and troubleshooting
-- **Community Forum**: Get help from other DARA users
+- **Community Forum**: Get help from other SWAAGI users
 
 ### Contact Information
-- **Support**: support@dara.fashion
-- **Cultural Consultation**: culture@dara.fashion
-- **Sustainability Questions**: sustainability@dara.fashion
-- **General Inquiries**: hello@dara.fashion
+- **Support**: support@swaagi.fashion
+- **Cultural Consultation**: culture@swaagi.fashion
+- **Sustainability Questions**: sustainability@swaagi.fashion
+- **General Inquiries**: hello@swaagi.fashion
 
 ## Privacy & Security
 
@@ -213,7 +213,7 @@ Here are some culturally-respectful options:
 
 ---
 
-**Welcome to DARA** - Where fashion meets culture with respect and sustainability.
+**Welcome to SWAAGI** - Where fashion meets culture with respect and sustainability.
 
 *Experience the future of culturally-aware fashion styling.*
 

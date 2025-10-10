@@ -1,12 +1,13 @@
-# DARA Platform - Project Charter
+# SWAAGI Platform - Project Charter
 
 ## Project Information
 
-**Project Name**: DARA (Beautiful AI Fashion Platform)  
+**Project Name**: SWAAGI (AI-Powered Style Companion Platform)  
 **Project Start Date**: January 2024  
-**Expected Completion**: Q3 2024  
+**Expected Completion**: Q3 2024
+**Current Status**: October 2025 - Active Development  
 **Project Manager**: Hexadigitall Development Team  
-**Stakeholders**: Fashion enthusiasts, AI technology adopters, Cultural fashion communities
+**Stakeholders**: Fashion enthusiasts, AI technology adopters, Global style communities
 
 ## Project Vision
 
@@ -14,7 +15,7 @@ To create a revolutionary AI-powered fashion platform that celebrates cultural d
 
 ## Project Mission
 
-DARA bridges the gap between traditional cultural fashion and modern AI technology, providing users with culturally-aware, sustainable, and personalized fashion recommendations while respecting and celebrating global fashion heritage.
+SWAAGI bridges the gap between global fashion trends and modern AI technology, helping everyone find their swag anywhere in the world. Providing users with culturally-aware, personalized fashion recommendations while celebrating diversity and confidence through international style.
 
 ## Project Objectives
 
@@ -181,6 +182,6 @@ DARA bridges the gap between traditional cultural fashion and modern AI technolo
 
 ---
 
-**DARA Project Charter** - Building bridges between heritage and modern technology.
+**SWAAGI Project Charter** - Building bridges between global style and modern technology.
 
 *Developed by [Hexadigitall](https://hexadigitall.com) - From Idea to Impact.*

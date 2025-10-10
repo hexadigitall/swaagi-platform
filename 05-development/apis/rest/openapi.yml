@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
-  title: DARA Platform API
-  description: Beautiful AI Fashion Platform with Cultural Awareness
+  title: SWAAGI Platform API
+  description: AI-Powered Style Companion - Find Your Swag, Anywhere in the World
   version: 1.0.0
   contact:
     name: Hexadigitall
@@ -9,9 +9,9 @@ info:
     email: support@hexadigitall.com
 
 servers:
-  - url: https://api.dara.fashion/v1
+  - url: https://api.swaagi.fashion/v1
     description: Production server
-  - url: https://staging-api.dara.fashion/v1
+  - url: https://staging-api.swaagi.fashion/v1
     description: Staging server
 
 paths:

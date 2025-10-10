@@ -1,7 +1,7 @@
 {
-  "name": "dara-frontend",
+  "name": "swaagi-frontend",
   "version": "1.0.0",
-  "description": "DARA Frontend - Conversational Fashion AI Platform",
+  "description": "SWAAGI Frontend - AI-Powered Style Companion Platform",
   "private": true,
   "scripts": {
     "dev": "next dev",

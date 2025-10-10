@@ -1,4 +1,4 @@
-# StyleAI Development Environment Setup
+# SWAAGI Development Environment Setup
 
 ## Prerequisites
 
@@ -19,8 +19,8 @@
 
 ### 1. Clone and Setup
 ```bash
-git clone https://github.com/styleai/styleai-platform.git
-cd styleai-platform
+git clone https://github.com/hexadigitall/swaagi-platform.git
+cd swaagi-platform
 cp .env.example .env
 ```
 

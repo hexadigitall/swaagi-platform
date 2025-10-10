@@ -1,85 +1,112 @@
-# StyleAI - Investor Pitch Deck
+# SWAAGI - Investor Pitch Deck
 
 ## Slide 1: Title Slide
-**DARA**
-*Your AI Fashion Companion*
+**SWAAGI**
+*AI-Powered Personal Styling for Everyone*
 
-"Making every human their most stylish self through conversational AI"
+Helping millions discover their perfect style through intelligent recommendations.
 
 **Seeking:** $1.2M Seed Round
+**Founded:** 2025
 **Team:** [Founder Names]
-**Date:** September 2024
+
+**Contact:** founders@swaagi.com
 
 ---
 
-## Slide 2: Problem Statement
-### The Fashion Shopping Experience is Broken
+## Slide 2: The Problem
+### Online Fashion Shopping Hasn't Evolved
 
-**73% of consumers feel overwhelmed** when shopping for clothes online
-- **Style Uncertainty:** "What looks good on me?"
-- **Fragmented Shopping:** Multiple apps, websites, checkouts
-- **Poor Visualization:** 68% of returns due to fit/appearance
-- **Generic Recommendations:** One-size-fits-all algorithms
+**The Current Reality:**
+- 73% of online shoppers feel overwhelmed by too many choices
+- People visit 5-7 different sites just to complete one outfit
+- Generic recommendations don't account for personal style or cultural preferences
+- Returns cost the industry $100B annually due to poor matching
 
-**Result:** $100B in fashion returns annually
+**Why This Matters:**
+Fashion is personal, but current technology treats everyone the same. There's a massive gap between what AI can do and what fashion shoppers actually experience.
 
 ---
 
-## Slide 3: Solution
-### Meet DARA: Your Conversational Fashion Companion
+## Slide 3: Our Solution
+### SWAAGI: Personalized Fashion Discovery
 
-**Natural Language Styling:**
-*"I need something professional but approachable for client meetings"*
+**How It Works:**
+Users describe what they're looking for in natural language. Our AI understands the context and recommends complete outfits from multiple brands.
 
-**AI Generates:**
-- Personalized outfit combinations
-- Cross-retailer product matching
-- Virtual try-on visualization
-- One-click purchasing
+**Example Queries:**
+- "I need something professional but not boring for client meetings"
+- "Show me casual weekend outfits that work for brunch"
+- "What should I wear to a summer wedding?"
 
-**From Inspiration to Purchase in 60 seconds**
+**What Makes Us Different:**
+- **Contextual Understanding**: We get the "why" behind what you're looking for
+- **Multi-Brand Aggregation**: Shop across 50+ retailers in one place
+- **Cultural Intelligence**: Our AI recognizes different style preferences globally
+- **Learning System**: Recommendations improve as we learn your taste
+
+We're building the personal stylist everyone wishes they had, accessible to anyone with a smartphone.
 
 ---
 
 ## Slide 4: Product Demo
-### How DARA Works
+### The User Experience
 
-1. **User Input:** "Show me edgy street style for weekend brunch"
-2. **AI Processing:** Style analysis + trend matching + personalization
-3. **Results:** Curated outfits from multiple brands
-4. **Visualization:** Virtual try-on with user's body type
-5. **Purchase:** Single checkout across retailers
+**Step 1: User Describes Their Need**
+Example: "I need business casual outfits for the office"
 
-**Demo Video:** [Live demonstration]
+**Step 2: AI Processes Request**
+- Analyzes intent and context
+- Searches across partner brands
+- Considers user's past preferences and budget
+- Generates 5-10 complete outfit combinations
+
+**Step 3: User Browses Results**
+- Views curated outfits with mix-and-match options
+- Sees pricing from different retailers
+- Reads reviews from other users
+- Saves favorites for later
+
+**Step 4: Seamless Checkout**
+- Adds items from multiple brands to one cart
+- Single checkout flow
+- Multiple payment methods supported
+- Order tracking in-app
+
+*[Demo walkthrough or video would be shown here]*
 
 ---
 
 ## Slide 5: Market Opportunity
-### Massive and Growing Market
+### A Massive, Growing Market
 
-**$668 Billion** - Global Fashion E-commerce (2024)
-**11.1% CAGR** - Market growth rate
-**$156 Billion** - Serviceable market (US, EU, UK)
+**The Global Opportunity:**
+- Global fashion e-commerce: $668B (2025)
+- Growing at 11.1% annually
+- Our initial serviceable market (US, EU, UK): $156B
 
-### Key Trends:
-- **AI Adoption:** 87% of retailers investing in AI
-- **Mobile Commerce:** 60% of fashion purchases
-- **Personalization:** 20% higher conversion rates
+**Why Now:**
+1. **AI Technology**: Natural language processing has reached maturity
+2. **Consumer Behavior**: 60% of fashion purchases now happen on mobile
+3. **Proven Demand**: Personalized recommendations drive 20% higher conversion
+4. **Retailer Investment**: 87% of fashion retailers are investing in AI solutions
 
-**Our Target:** 1% market share = $1.56B opportunity
+**The Opportunity:**
+Capturing just 1% of the serviceable market represents $1.56B in GMV. We're building the infrastructure to get there through strong unit economics and viral growth.
 
 ---
 
 ## Slide 6: Business Model
-### Multiple Revenue Streams
+### How We Make Money
 
-**Primary: Commission (85% of revenue)**
-- 8-12% commission on all purchases
+**Primary Revenue: Transaction Commissions (85%)**
+- We earn 8-12% commission on each purchase made through our platform
 - Average order value: $150
-- Target: 500K transactions/year by Year 3
+- Target: 500,000 transactions annually by Year 3
+- Similar model to Stitch Fix, but with broader inventory
 
-**Secondary: Subscriptions (10%)**
-- DARA Pro: $9.99/month
+**Secondary Revenue: Premium Subscriptions (10%)**
+- SWAAGI Pro: $9.99/month
 - Premium features, unlimited styling
 - Target: 15% conversion rate
 
@@ -195,7 +222,7 @@
 ---
 
 ## Slide 13: Funding & Use of Funds
-### $1.2M Seed Round
+### $1.2M Seed Round - Help Everyone Find Their Swag
 
 **Use of Funds:**
 - **Product Development (42%):** $500K
@@ -203,62 +230,78 @@
   - Mobile app development
   - Virtual try-on technology
 
-- **Team Growth (29%):** $350K
-  - Senior engineers (3)
-  - Fashion partnerships lead
-  - Marketing director
+- **Team Expansion (30%):** $360K
+  - 2 senior engineers
+  - Fashion partnerships manager
+  - Marketing lead
+  - Operations coordinator
 
-- **Marketing (21%):** $250K
-  - Digital advertising
-  - Influencer partnerships
-  - Brand building
+- **Marketing & User Acquisition (25%):** $300K
+  - Digital advertising campaigns
+  - Influencer and brand partnerships
+  - Content marketing
+  - PR and community building
 
-- **Operations (8%):** $100K
+- **Operations & Legal (10%):** $120K
+  - Legal fees and compliance
+  - Office and infrastructure
+  - Insurance and professional services
 
-**Timeline:** 15 months runway to Series A
-
----
-
-## Slide 14: Milestones & Next Steps
-### Clear Path to Series A
-
-**Next 6 Months:**
-- Launch MVP with 5 retail partners
-- Acquire 10,000 registered users
-- Achieve $100K monthly revenue run rate
-
-**Next 12 Months:**
-- Scale to 50,000 users
-- Expand to 20 retail partners
-- Launch mobile app
-- Raise Series A ($8M)
-
-**Key Metrics for Series A:**
-- $8M revenue run rate
-- Proven unit economics
-- Strong user engagement metrics
+**Runway:** 18 months to profitability or Series A fundraise
 
 ---
 
-## Slide 15: Investment Opportunity
-### Join the Future of Fashion
+## Slide 14: Milestones & Roadmap
+### 18-Month Plan
 
-**Why Now?**
-- AI technology maturity
-- Consumer behavior shift to mobile/AI
-- Fashion industry digital transformation
+**Months 1-6: Beta & Launch**
+- Complete MVP development
+- Partner with 10-15 fashion retailers
+- Beta test with 1,000 users
+- Refine product based on feedback
+- Public launch
 
-**Why Us?**
-- Experienced team with domain expertise
-- Unique technology and IP
-- Strong early traction signals
-- Clear path to large market
+**Months 7-12: Scale & Optimize**
+- Grow to 25,000 active users
+- Expand to 30+ retail partners
+- Launch native mobile apps (iOS/Android)
+- Achieve $500K monthly GMV
+- Hit break-even on unit economics
 
-**The Ask:** $1.2M for 15% equity
+**Months 13-18: Expand & Fundraise**
+- Scale to 100,000+ users
+- 50+ brand partnerships
+- $2M+ monthly GMV
+- Prepare for Series A ($5-8M)
+- Consider international expansion
 
-**Contact:**
-- Email: hexadigitztech@gmail.com
-- Demo: dara.com/demo
+---
+
+## Slide 15: The Investment
+### Why SWAAGI, Why Now
+
+**Market Timing:**
+- AI/NLP technology is mature enough to deliver real value
+- Fashion e-commerce growing 11%+ annually
+- Consumers are ready for better personalization
+- Mobile-first shopping is now the norm
+
+**Why We'll Win:**
+- **Team**: [Highlight relevant experience in tech/fashion/e-commerce]
+- **Technology**: Leveraging best-in-class AI without reinventing the wheel
+- **Go-to-Market**: Clear path through influencer partnerships and viral growth
+- **Economics**: Strong unit economics from day one
+
+**The Ask:**
+- Raising: $1.2M Seed Round
+- Valuation: $8M pre-money
+- Equity: 15%
+- Use: 18-month runway to profitability or Series A
+
+**Let's Talk:**
+- Email: founders@swaagi.com
+- Website: www.swaagi.com
+- Schedule a demo: [Calendar link]
 
 ---
 

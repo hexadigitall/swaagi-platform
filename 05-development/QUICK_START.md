@@ -1,17 +1,17 @@
-# StyleAI - Quick Start Guide
+# SWAAGI - Quick Start Guide
 
 ## 🎯 How to Run the App
 
 ### Option 1: Run Development Server
 ```bash
-cd /mnt/c/projects/ai-fashion-stylist/05-development/frontend
+cd /path/to/swaagi-platform/05-development/frontend
 npm run dev
 ```
 Then open: **http://localhost:3000**
 
 ### Option 2: Using the Quick Script
 ```bash
-cd /mnt/c/projects/ai-fashion-stylist/05-development
+cd /path/to/swaagi-platform/05-development
 ./run-preview.sh
 ```
 

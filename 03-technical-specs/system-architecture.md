@@ -1,8 +1,8 @@
-# DARA Platform - System Architecture
+# SWAAGI Platform - System Architecture
 
 ## Overview
 
-DARA (Beautiful AI Fashion Platform) is built on a modern, scalable microservices architecture that supports global fashion discovery, AI-powered styling, and cultural appreciation features.
+SWAAGI (Beautiful AI Fashion Platform) is built on a modern, scalable microservices architecture that supports global fashion discovery, AI-powered styling, and cultural appreciation features.
 
 ## Architecture Principles
 
@@ -18,7 +18,7 @@ DARA (Beautiful AI Fashion Platform) is built on a modern, scalable microservice
 ### Frontend Layer
 ```
 ┌─────────────────────────────────────────┐
-│             DARA Frontend               │
+│             SWAAGI Frontend               │
 │           Next.js 14 + React 18         │
 ├─────────────────────────────────────────┤
 │ • Beautiful African-inspired UI         │
@@ -31,7 +31,7 @@ DARA (Beautiful AI Fashion Platform) is built on a modern, scalable microservice
 
 **Technologies:**
 - **Framework**: Next.js 14 with App Router
-- **Styling**: Tailwind CSS with custom DARA theme
+- **Styling**: Tailwind CSS with custom SWAAGI theme
 - **State Management**: React Context + Zustand
 - **Animations**: Framer Motion for cultural elements
 - **PWA**: Service workers for offline functionality
@@ -180,7 +180,7 @@ CREATE TABLE cultural_trends (
 
 ### Auto-scaling Strategy
 ```yaml
-# Kubernetes deployment for DARA
+# Kubernetes deployment for SWAAGI
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -240,23 +240,23 @@ spec:
 ```
 Global Load Balancer
 ├── US-East (Primary)
-│   ├── DARA API Cluster
+│   ├── SWAAGI API Cluster
 │   ├── AI Services
 │   └── Database (Primary)
 ├── EU-West (Secondary)
-│   ├── DARA API Cluster
+│   ├── SWAAGI API Cluster
 │   ├── AI Services
 │   └── Database (Replica)
 └── Asia-Pacific (Future)
-    ├── DARA API Cluster
+    ├── SWAAGI API Cluster
     ├── AI Services  
     └── Database (Replica)
 ```
 
 ### CI/CD Pipeline
 ```yaml
-# GitHub Actions for DARA
-name: DARA Platform Deployment
+# GitHub Actions for SWAAGI
+name: SWAAGI Platform Deployment
 on:
   push:
     branches: [main]
@@ -297,6 +297,6 @@ jobs:
 
 ---
 
-**DARA Architecture** - Built for scale, designed with cultural appreciation, optimized for global fashion discovery.
+**SWAAGI Architecture** - Built for scale, designed with cultural appreciation, optimized for global fashion discovery.
 
 *Technology stack celebrating diversity while delivering performance.*

@@ -1,8 +1,8 @@
-# DARA Platform - Deployment Guide
+# SWAAGI Platform - Deployment Guide
 
 ## Overview
 
-This guide provides comprehensive instructions for deploying the DARA platform across different environments, from development to production, with emphasis on cultural data protection and sustainable infrastructure.
+This guide provides comprehensive instructions for deploying the SWAAGI platform across different environments, from development to production, with emphasis on cultural data protection and sustainable infrastructure.
 
 ## Infrastructure Architecture
 
@@ -84,7 +84,7 @@ This guide provides comprehensive instructions for deploying the DARA platform a
 version: '3.8'
 
 services:
-  dara-frontend:
+  swaagi-frontend:
     build:
       context: ./frontend
       dockerfile: Dockerfile.dev
@@ -98,7 +98,7 @@ services:
       - NEXT_PUBLIC_API_URL=http://localhost:8000
       - NEXT_PUBLIC_CULTURAL_API_URL=http://localhost:8001
 
-  dara-backend:
+  swaagi-backend:
     build:
       context: ./backend
       dockerfile: Dockerfile.dev
@@ -108,7 +108,7 @@ services:
       - ./backend:/app
     environment:
       - ENVIRONMENT=development
-      - DATABASE_URL=postgresql://dara_user:dara_pass@db:5432/dara_dev
+      - DATABASE_URL=postgresql://swaagi_user:swaagi_pass@db:5432/swaagi_dev
       - REDIS_URL=redis://redis:6379/0
       - CULTURAL_SENSITIVITY_LEVEL=high
 
@@ -130,9 +130,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_USER=dara_user
-      - POSTGRES_PASSWORD=dara_pass
-      - POSTGRES_DB=dara_dev
+      - POSTGRES_USER=swaagi_user
+      - POSTGRES_PASSWORD=swaagi_pass
+      - POSTGRES_DB=swaagi_dev
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
@@ -156,16 +156,16 @@ volumes:
 version: '3.8'
 
 services:
-  dara-frontend:
+  swaagi-frontend:
     build:
       context: ./frontend
       dockerfile: Dockerfile.staging
     environment:
       - NODE_ENV=staging
-      - NEXT_PUBLIC_API_URL=https://staging-api.dara.fashion
-      - NEXT_PUBLIC_CULTURAL_API_URL=https://staging-cultural.dara.fashion
+      - NEXT_PUBLIC_API_URL=https://staging-api.swaagi.fashion
+      - NEXT_PUBLIC_CULTURAL_API_URL=https://staging-cultural.swaagi.fashion
 
-  dara-backend:
+  swaagi-backend:
     build:
       context: ./backend
       dockerfile: Dockerfile.staging
@@ -210,7 +210,7 @@ services:
       - SENTRY_DSN=${SENTRY_DSN}
 
   cultural-ai-service:
-    image: ${DOCKER_REGISTRY}/dara-cultural-ai:${VERSION}
+    image: ${DOCKER_REGISTRY}/swaagi-cultural-ai:${VERSION}
     environment:
       - MODEL_PATH=/app/models/cultural-awareness-production
       - BIAS_MONITORING_ENABLED=true
@@ -226,9 +226,9 @@ services:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: dara-platform
+  name: swaagi-platform
   labels:
-    name: dara-platform
+    name: swaagi-platform
     cultural-sensitivity: high
     sustainability-focus: true
 ```
@@ -240,27 +240,27 @@ metadata:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dara-frontend
-  namespace: dara-platform
+  name: swaagi-frontend
+  namespace: swaagi-platform
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: dara-frontend
+      app: swaagi-frontend
   template:
     metadata:
       labels:
-        app: dara-frontend
+        app: swaagi-frontend
         version: v1
     spec:
       containers:
       - name: frontend
-        image: dara/frontend:latest
+        image: swaagi/frontend:latest
         ports:
         - containerPort: 3000
         env:
         - name: NEXT_PUBLIC_API_URL
-          value: "https://api.dara.fashion"
+          value: "https://api.swaagi.fashion"
         - name: NEXT_PUBLIC_CULTURAL_SENSITIVITY
           value: "high"
         resources:
@@ -291,13 +291,13 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dara-backend
-  namespace: dara-platform
+  name: swaagi-backend
+  namespace: swaagi-platform
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: dara-backend
+      app: swaagi-backend
   template:
     metadata:
       labels:
@@ -336,7 +336,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: dara-cultural-ai
-  namespace: dara-platform
+  namespace: swaagi-platform
 spec:
   replicas: 2
   selector:
@@ -508,7 +508,7 @@ if __name__ == "__main__":
 
 ```yaml
 # .github/workflows/dara-deployment.yml
-name: DARA Platform Deployment
+name: SWAAGI Platform Deployment
 
 on:
   push:
@@ -738,7 +738,7 @@ groups:
 ```json
 {
   "dashboard": {
-    "title": "DARA Platform - Cultural & Sustainability Metrics",
+    "title": "SWAAGI Platform - Cultural & Sustainability Metrics",
     "panels": [
       {
         "title": "Cultural Sensitivity Compliance",
@@ -799,7 +799,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: cultural-encryption-keys
-  namespace: dara-platform
+  namespace: swaagi-platform
 type: Opaque
 data:
   primary-key: <base64-encoded-encryption-key>
@@ -815,7 +815,7 @@ apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
   name: dara-cultural-data-protection
-  namespace: dara-platform
+  namespace: swaagi-platform
 spec:
   podSelector:
     matchLabels:
@@ -905,6 +905,6 @@ python scripts/validate_restored_cultural_data.py
 
 ---
 
-**DARA Deployment Guide** - Deploying cultural sensitivity and sustainability at scale.
+**SWAAGI Deployment Guide** - Deploying cultural sensitivity and sustainability at scale.
 
 *Infrastructure by [Hexadigitall](https://hexadigitall.com) - From Idea to Impact.*

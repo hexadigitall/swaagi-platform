@@ -7,8 +7,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <Head>
-        <title>DARA - AI Fashion Platform</title>
-        <meta name="description" content="AI-powered fashion platform offering personalized styling recommendations and sustainable fashion marketplace" />
+        <title>SWAAGI - Your Drip Is Just A Vibe Away 🔥</title>
+        <meta name="description" content="Where AI meets drip. Level up your fit with AI that actually gets your vibe. From Tokyo to Lagos, your next iconic look starts here. No cap." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* Favicons */}
@@ -23,13 +23,13 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="msapplication-TileColor" content="#F59E0B" />
         
         {/* SEO Meta */}
-        <meta property="og:title" content="DARA - AI Fashion Platform" />
-        <meta property="og:description" content="Discover your perfect style with AI-powered fashion recommendations" />
+        <meta property="og:title" content="SWAAGI - Your Drip Is Just A Vibe Away" />
+        <meta property="og:description" content="AI-powered style that speaks your language. Find your swag, anywhere in the world. Look iconic. Feel iconic. Be iconic. 🔥✨" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/logos/dara-logo-large.png" />
+        <meta property="og:image" content="/logos/swaagi-logo-large.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="DARA - AI Fashion Platform" />
-        <meta name="twitter:description" content="AI-powered fashion styling and sustainable marketplace" />
+        <meta name="twitter:title" content="SWAAGI - Your Drip Is Just A Vibe Away" />
+        <meta name="twitter:description" content="Where AI meets drip. Level up your fit with intelligence that gets your vibe. #SwaagiNation" />
         
         {/* Preconnect to optimize performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />

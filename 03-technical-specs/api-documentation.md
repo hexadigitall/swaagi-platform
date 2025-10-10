@@ -1,13 +1,13 @@
-# DARA Platform - API Documentation
+# SWAAGI Platform - API Documentation
 
 ## Overview
 
-The DARA API provides endpoints for AI-powered fashion styling, cultural trend discovery, and personalized fashion recommendations. Built with cultural sensitivity and global accessibility in mind.
+The SWAAGI API provides endpoints for AI-powered fashion styling, global trend discovery, and personalized fashion recommendations. Built with cultural sensitivity and worldwide accessibility in mind.
 
 ## Base URL
 ```
-Production: https://api.dara.fashion/v1
-Staging: https://staging-api.dara.fashion/v1
+Production: https://api.swaagi.fashion/v1
+Staging: https://staging-api.swaagi.fashion/v1
 ```
 
 ## Authentication
@@ -349,7 +349,7 @@ Authorization: Bearer {jwt_token}
       "violation_type": "inappropriate_cultural_reference",
       "suggestion": "Please review cultural guidelines and resubmit"
     },
-    "timestamp": "2024-01-15T10:30:00Z",
+    "timestamp": "2025-10-10T10:30:00Z",
     "request_id": "req_123456789"
   }
 }
@@ -379,14 +379,14 @@ Authorization: Bearer {jwt_token}
 
 ### JavaScript/TypeScript
 ```bash
-npm install @dara/sdk
+npm install @swaagi/sdk
 ```
 
 ```typescript
-import { DaraClient } from '@dara/sdk';
+import { SwaagiClient } from '@swaagi/sdk';
 
-const client = new DaraClient({
-  apiKey: process.env.DARA_API_KEY,
+const client = new SwaagiClient({
+  apiKey: process.env.SWAAGI_API_KEY,
   culturalSensitivity: 'high'
 });
 
@@ -399,14 +399,14 @@ const analysis = await client.style.analyze({
 
 ### Python
 ```bash
-pip install dara-python-sdk
+pip install swaagi-python-sdk
 ```
 
 ```python
-from dara import DaraClient
+from swaagi import SwaagiClient
 
-client = DaraClient(
-    api_key=os.getenv('DARA_API_KEY'),
+client = SwaagiClient(
+    api_key=os.getenv('SWAAGI_API_KEY'),
     cultural_sensitivity='high'
 )
 
@@ -428,7 +428,7 @@ analysis = client.style.analyze(
     "user_id": "user_456",
     "cultural_context": "west_african",
     "recommendations_count": 5,
-    "timestamp": "2024-01-15T10:30:00Z"
+    "timestamp": "2025-10-10T10:30:00Z"
   }
 }
 ```
@@ -442,7 +442,7 @@ analysis = client.style.analyze(
     "cultural_region": "african_diaspora",
     "significance_level": "high",
     "user_relevance_score": 92,
-    "timestamp": "2024-01-15T10:30:00Z"
+    "timestamp": "2025-10-10T10:30:00Z"
   }
 }
 ```
@@ -465,6 +465,6 @@ analysis = client.style.analyze(
 
 ---
 
-**DARA API** - Connecting fashion with cultural appreciation and global accessibility.
+**SWAAGI API** - Connecting fashion with global style and worldwide accessibility.
 
 *Building bridges between heritage and modern style.*

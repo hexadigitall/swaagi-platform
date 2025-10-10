@@ -1,8 +1,8 @@
-# StyleAI - Investor Materials & Funding Strategy
+# SWAAGI - Investor Materials & Funding Strategy
 
 ## Executive Summary for Investors
 
-**Company:** StyleAI  
+**Company:** SWAAGI  
 **Sector:** Fashion Technology / AI Consumer Applications  
 **Stage:** Seed Round  
 **Seeking:** $1.2M  
@@ -10,7 +10,9 @@
 **Use of Funds:** Product development, team building, market entry  
 
 ### The Opportunity
-StyleAI is positioned to capture a significant share of the $668B global fashion e-commerce market through our conversational AI platform that transforms how consumers discover, visualize, and purchase clothing.
+SWAAGI isn't just another fashion app—it's a movement. We're capturing the $668B global fashion e-commerce market by solving what no one else has: making AI actually understand style. 
+
+**The Pitch:** Your drip is just a vibe away. We're turning fashion discovery from a chore into a culture. From Gen Z to millennials, from Tokyo to Lagos, everyone deserves to feel iconic. We're making that happen with AI that doesn't just recommend—it *revolutionizes*.
 
 ## Investment Highlights
 
@@ -21,10 +23,11 @@ StyleAI is positioned to capture a significant share of the $668B global fashion
 - **Personalization Demand**: 91% of consumers prefer brands that provide relevant recommendations
 
 ### 🚀 Unique Value Proposition
-1. **First Conversational Fashion AI**: No competitor offers natural language style input
-2. **Cross-Retailer Integration**: Unified shopping experience across multiple brands
-3. **Advanced Personalization**: AI learns and evolves with user preferences
-4. **Scalable Technology**: Cloud-native architecture built for global expansion
+1. **AI-Powered Style Companion**: Natural language style input celebrating global diversity
+2. **Cross-Retailer Integration**: Unified shopping experience across international brands
+3. **Global Style Intelligence**: AI trained on diverse fashion trends worldwide
+4. **Scalable Technology**: Cloud-native architecture built for worldwide expansion
+5. **Confidence-Driven**: Helping everyone find their unique swag
 
 ### 📊 Market Size & Growth
 - **TAM**: $668B (Global fashion e-commerce)
