@@ -1,8 +1,8 @@
-# DARA Platform - Project Roadmap
+# SWAAGI Platform - Project Roadmap
 
 ## Overview
 
-This roadmap outlines the strategic development plan for DARA, from initial concept through global scaling, with emphasis on cultural sensitivity, sustainability, and AI innovation in fashion.
+This roadmap outlines the strategic development plan for SWAAGI, from initial concept through global scaling, with emphasis on cultural sensitivity, international style, and AI innovation in fashion.
 
 ## Timeline Overview
 
@@ -244,6 +244,6 @@ This roadmap outlines the strategic development plan for DARA, from initial conc
 
 ---
 
-**DARA Roadmap** - Charting the course from vision to global impact.
+**SWAAGI Roadmap** - Charting the course from vision to global impact.
 
 *Strategic planning by [Hexadigitall](https://hexadigitall.com) - From Idea to Impact.*

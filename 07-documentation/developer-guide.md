@@ -1,8 +1,8 @@
-# DARA Platform - Developer Guide
+# SWAAGI Platform - Developer Guide
 
 ## Overview
 
-This developer guide provides comprehensive information for contributing to the DARA platform, including setup instructions, architecture overview, coding standards, and deployment procedures.
+This developer guide provides comprehensive information for contributing to the SWAAGI platform, including setup instructions, architecture overview, coding standards, and deployment procedures.
 
 ## Quick Start
 
@@ -17,8 +17,8 @@ This developer guide provides comprehensive information for contributing to the 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/dara-platform.git
-cd dara-platform
+git clone https://github.com/your-org/swaagi-platform.git
+cd swaagi-platform
 
 # Install dependencies
 cd 05-development/frontend
@@ -41,7 +41,7 @@ cp .env.template .env
 
 #### Frontend
 - **Framework**: Next.js 14 with App Router
-- **Styling**: Tailwind CSS with custom DARA theme
+- **Styling**: Tailwind CSS with custom SWAAGI theme
 - **State Management**: React Context + Zustand
 - **Animations**: Framer Motion
 - **Testing**: Jest + React Testing Library
@@ -62,7 +62,7 @@ cp .env.template .env
 ### Project Structure
 
 ```
-dara-platform/
+swaagi-platform/
 ├── 01-project-overview/          # Project documentation
 ├── 02-business-documents/        # Business plans and strategy
 ├── 03-technical-specs/          # Technical architecture docs
@@ -524,7 +524,7 @@ class TestAIBias:
 # docker-compose.yml
 version: '3.8'
 services:
-  dara-frontend:
+  swaagi-frontend:
     build:
       context: ./frontend
       dockerfile: Dockerfile
@@ -534,15 +534,15 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - dara-backend
+      - swaagi-backend
       - cultural-service
 
-  dara-backend:
+  swaagi-backend:
     build:
       context: ./backend
       dockerfile: Dockerfile
     environment:
-      - DATABASE_URL=postgresql://user:pass@db:5432/dara_db
+      - DATABASE_URL=postgresql://user:pass@db:5432/swaagi_db
       - REDIS_URL=redis://redis:6379/0
       - CULTURAL_SENSITIVITY_LEVEL=high
     ports:
@@ -564,8 +564,8 @@ services:
 
 ### CI/CD Pipeline
 ```yaml
-# .github/workflows/dara-ci-cd.yml
-name: DARA Platform CI/CD
+# .github/workflows/swaagi-ci-cd.yml
+name: SWAAGI Platform CI/CD
 
 on:
   push:
@@ -600,7 +600,7 @@ jobs:
       - name: Deploy to Production
         run: |
           # Deployment steps with cultural verification
-          echo "Deploying DARA with cultural sensitivity verified"
+          echo "Deploying SWAAGI with cultural sensitivity verified"
 ```
 
 ## Contributing
@@ -623,6 +623,6 @@ jobs:
 
 ---
 
-**DARA Developer Guide** - Building the future of culturally-aware fashion technology.
+**SWAAGI Developer Guide** - Building the future of globally-aware fashion technology.
 
 *Development platform by [Hexadigitall](https://hexadigitall.com) - From Idea to Impact.*
