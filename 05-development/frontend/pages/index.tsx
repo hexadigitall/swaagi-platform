@@ -35,14 +35,14 @@ export default function HomePage() {
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="block text-neutral-900 dark:text-white">Meet</span>
               <span className="block bg-gradient-to-r from-accent-600 via-accent-500 to-accent-400 bg-clip-text text-transparent">
-                DARA
+                SWAAGI
               </span>
             </h1>
 
             {/* Hero Subtitle */}
             <p className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Your personal AI fashion advisor celebrating global diversity with African-inspired design. 
-              Discover beautiful styles that reflect your unique story.
+              Your AI-powered style companion celebrating global diversity. 
+              Find your swag, anywhere in the world.
             </p>
 
             {/* CTA Buttons */}
@@ -74,10 +74,10 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-white mb-4">
-              Why Choose DARA?
+              Why Choose SWAAGI?
             </h2>
             <p className="text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
-              Experience fashion discovery like never before with our AI-powered platform celebrating global diversity.
+              Experience fashion discovery like never before with our AI-powered style companion celebrating global diversity.
             </p>
           </motion.div>
 
@@ -190,7 +190,7 @@ export default function HomePage() {
               href="/style"
               className="inline-flex items-center px-8 py-4 bg-white text-accent-600 rounded-lg font-semibold text-lg hover:bg-accent-50 transition-colors focus-ring"
             >
-              Start with DARA
+              Start with SWAAGI
               <Sparkles className="ml-2 h-5 w-5" />
             </Link>
           </motion.div>

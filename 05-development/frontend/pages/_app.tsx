@@ -7,8 +7,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <Head>
-        <title>DARA - AI Fashion Platform</title>
-        <meta name="description" content="AI-powered fashion platform offering personalized styling recommendations and sustainable fashion marketplace" />
+        <title>SWAAGI - AI Style Companion</title>
+        <meta name="description" content="Your AI-powered style companion. Find your swag, anywhere in the world. Personalized styling celebrating global diversity." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* Favicons */}
@@ -23,13 +23,13 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="msapplication-TileColor" content="#F59E0B" />
         
         {/* SEO Meta */}
-        <meta property="og:title" content="DARA - AI Fashion Platform" />
-        <meta property="og:description" content="Discover your perfect style with AI-powered fashion recommendations" />
+        <meta property="og:title" content="SWAAGI - AI Style Companion" />
+        <meta property="og:description" content="Find your swag, anywhere in the world with AI-powered fashion recommendations" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/logos/dara-logo-large.png" />
+        <meta property="og:image" content="/logos/swaagi-logo-large.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="DARA - AI Fashion Platform" />
-        <meta name="twitter:description" content="AI-powered fashion styling and sustainable marketplace" />
+        <meta name="twitter:title" content="SWAAGI - AI Style Companion" />
+        <meta name="twitter:description" content="AI-powered style companion celebrating global diversity" />
         
         {/* Preconnect to optimize performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
