@@ -1,7 +1,7 @@
-# StyleAI MVP - Technical Specifications
+# SWAAGI MVP - Technical Specifications
 
 ## MVP Overview
-**Goal:** Validate product-market fit with core conversational fashion AI
+**Goal:** Validate product-market fit with core AI-powered style companion
 **Timeline:** 6 months development
 **Target Users:** 1,000 beta users, 10,000 launch users
 
