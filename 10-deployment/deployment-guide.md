@@ -226,9 +226,9 @@ services:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: dara-platform
+  name: swaagi-platform
   labels:
-    name: dara-platform
+    name: swaagi-platform
     cultural-sensitivity: high
     sustainability-focus: true
 ```
@@ -336,7 +336,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: dara-cultural-ai
-  namespace: dara-platform
+  namespace: swaagi-platform
 spec:
   replicas: 2
   selector:
@@ -508,7 +508,7 @@ if __name__ == "__main__":
 
 ```yaml
 # .github/workflows/dara-deployment.yml
-name: DARA Platform Deployment
+name: SWAAGI Platform Deployment
 
 on:
   push:
@@ -738,7 +738,7 @@ groups:
 ```json
 {
   "dashboard": {
-    "title": "DARA Platform - Cultural & Sustainability Metrics",
+    "title": "SWAAGI Platform - Cultural & Sustainability Metrics",
     "panels": [
       {
         "title": "Cultural Sensitivity Compliance",
@@ -799,7 +799,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: cultural-encryption-keys
-  namespace: dara-platform
+  namespace: swaagi-platform
 type: Opaque
 data:
   primary-key: <base64-encoded-encryption-key>
@@ -815,7 +815,7 @@ apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
   name: dara-cultural-data-protection
-  namespace: dara-platform
+  namespace: swaagi-platform
 spec:
   podSelector:
     matchLabels:
@@ -905,6 +905,6 @@ python scripts/validate_restored_cultural_data.py
 
 ---
 
-**DARA Deployment Guide** - Deploying cultural sensitivity and sustainability at scale.
+**SWAAGI Deployment Guide** - Deploying cultural sensitivity and sustainability at scale.
 
 *Infrastructure by [Hexadigitall](https://hexadigitall.com) - From Idea to Impact.*

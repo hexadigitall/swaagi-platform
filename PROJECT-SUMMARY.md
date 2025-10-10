@@ -204,7 +204,7 @@ The enhanced keep-warping system successfully maintained session continuity thro
 
 ## Development Credits
 
-**DARA Platform** - Beautiful AI Fashion Platform
+**SWAAGI Platform** - AI-Powered Style Companion
 - **Developed by**: [Hexadigitall](https://hexadigitall.com)
 - **Digital Solutions**: Complete end-to-end development
 - **Expertise**: AI/ML, Full-Stack Development, UI/UX Design

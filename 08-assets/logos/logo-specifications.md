@@ -1,4 +1,4 @@
-# DARA Logo Specifications
+# SWAAGI Logo Specifications
 
 ## Logo Variations Available
 

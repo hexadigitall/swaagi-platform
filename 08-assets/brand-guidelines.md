@@ -247,6 +247,6 @@ swaagi-color-palette-primary.pdf
 
 ---
 
-**DARA Brand Guidelines** - Beautiful, respectful, sustainable fashion branding.
+**SWAAGI Brand Guidelines** - Beautiful, respectful, sustainable fashion branding.
 
 *Brand development by [Hexadigitall](https://hexadigitall.com) - From Idea to Impact.*

@@ -1,8 +1,8 @@
-# DARA Platform - Wireframes & Prototypes
+# SWAAGI Platform - Wireframes & Prototypes
 
 ## Design System Overview
 
-DARA's design system is built around cultural appreciation, sustainability consciousness, and intuitive user experience. Our prototypes emphasize:
+SWAAGI's design system is built around cultural appreciation, sustainability consciousness, and intuitive user experience. Our prototypes emphasize:
 
 - **Cultural Sensitivity**: Respectful integration of cultural elements
 - **Accessibility**: WCAG 2.1 AA compliance
@@ -19,7 +19,7 @@ DARA's design system is built around cultural appreciation, sustainability consc
 ┌─────────────────────────────────┐
 │          Welcome Screen         │
 │                                 │
-│    🌟 Welcome to DARA 🌟       │
+│    🌟 Welcome to SWAAGI 🌟       │
 │                                 │
 │  "Beautiful AI Fashion         │
 │   Platform celebrating         │
@@ -67,7 +67,7 @@ DARA's design system is built around cultural appreciation, sustainability consc
 #### Style Consultation Chat
 ```
 ┌─────────────────────────────────┐
-│  DARA AI Stylist        [⚙️]   │
+│  SWAAGI AI Stylist        [⚙️]   │
 ├─────────────────────────────────┤
 │                                 │
 │  🤖 Hi! I'm your AI stylist.   │
@@ -224,7 +224,7 @@ DARA's design system is built around cultural appreciation, sustainability consc
 ### Mobile Navigation
 ```
 ┌─────────────────┐
-│ DARA      [☰]  │
+│ SWAAGI      [☰]  │
 ├─────────────────┤
 │                 │
 │  [Chat with AI] │
@@ -244,7 +244,7 @@ DARA's design system is built around cultural appreciation, sustainability consc
 ### Tablet Adaptation
 ```
 ┌─────────────────────────────────┐
-│ DARA     🏠 🤖 🌍 ♻️ 👤   [☰] │
+│ SWAAGI     🏠 🤖 🌍 ♻️ 👤   [☰] │
 ├─────────────────────────────────┤
 │                                 │
 │  ┌─────────┐  ┌─────────────┐   │
@@ -354,6 +354,6 @@ DARA's design system is built around cultural appreciation, sustainability consc
 
 ---
 
-**DARA Wireframes & Prototypes** - Designing respectful, accessible, and beautiful user experiences.
+**SWAAGI Wireframes & Prototypes** - Designing respectful, accessible, and beautiful user experiences.
 
 *UI/UX design by [Hexadigitall](https://hexadigitall.com) - From Idea to Impact.*

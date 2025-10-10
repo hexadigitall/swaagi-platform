@@ -89,5 +89,5 @@ The app works perfectly despite some hydration warnings (time display issue). Th
 
 ## 🎉 You're Done!
 
-Your DARA platform is now live and accessible from anywhere!
+Your SWAAGI platform is now live and accessible from anywhere!
 Share the URL with others to test on different devices.

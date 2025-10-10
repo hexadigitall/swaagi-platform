@@ -1,4 +1,4 @@
-# DARA AI Models Registry
+# SWAAGI AI Models Registry
 
 ## Cultural Awareness Models
 

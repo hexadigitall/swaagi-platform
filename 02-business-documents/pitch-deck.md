@@ -79,7 +79,7 @@
 - Target: 500K transactions/year by Year 3
 
 **Secondary: Subscriptions (10%)**
-- DARA Pro: $9.99/month
+- SWAAGI Pro: $9.99/month
 - Premium features, unlimited styling
 - Target: 15% conversion rate
 
