@@ -1,8 +1,19 @@
-# SWAAGI Brand Identity Guide 🌟
+# SWAAGI Brand Identity Guide 🌟✨
 
 ## Brand Overview
 
-**SWAAGI** (inspired by "Swag" - representing style, confidence, and modern international fashion) is your AI-powered style companion, delivering personalized fashion recommendations and celebrating global diversity. With SWAAGI, everyone finds their swag—anywhere in the world.
+**SWAAGI** - Where AI meets drip. Born from the culture, built for the world. 
+
+*"Your drip is just a vibe away."* - This isn't just fashion tech. This is a movement. A global style revolution powered by AI that understands one universal truth: **everyone deserves to look and feel iconic.**
+
+SWAAGI is more than an app—it's your personal hype squad, style guru, and confidence amplifier rolled into one. We celebrate every fit, every culture, every vibe. From streetwear to runway, we got you covered. Period.
+
+### The SWAAGI Vibe
+- 🔥 **Trendsetting**: We don't follow trends, we create them
+- ✨ **Inclusive**: Your style, your rules, your swag
+- 💎 **Authentic**: Real recommendations for real people
+- 🌍 **Global**: Fashion without borders
+- 🚀 **Innovative**: AI that actually gets your vibe
 
 ## Logo System
 
@@ -99,19 +110,38 @@
 }
 ```
 
-## Cultural Guidelines
+## Brand Voice & Taglines
 
-### Respectful Usage
-- ✅ **DO:** Celebrate global fashion diversity and international style
-- ✅ **DO:** Honor diverse cultural influences with authenticity
-- ✅ **DO:** Credit cultural influences appropriately
-- ❌ **DON'T:** Appropriate sacred or ceremonial elements
-- ❌ **DON'T:** Use stereotypical representations
+### Core Taglines
+1. **Primary:** "Your drip is just a vibe away" 🔥
+2. **Secondary:** "Find your swag, anywhere in the world" 🌍
+3. **Action:** "Level up your fit" ⬆️
+4. **Aspiration:** "Look iconic. Feel iconic. Be iconic." ✨
+5. **Community:** "Where the culture meets the closet" 💎
 
 ### Brand Voice
-- **Tone:** Confident, inclusive, empowering, stylish
-- **Language:** Modern, accessible, globally aware
-- **Values:** Style, confidence, diversity, inclusivity, swag for everyone
+- **Tone:** Bold, confident, authentic, hype
+- **Language:** Contemporary, inclusive, culturally fluent
+- **Energy:** High-energy, trend-forward, empowering
+- **Attitude:** No cap, just facts. Real talk, real style.
+
+### The SWAAGI Lexicon
+- **Drip**: Your style, your aesthetic, your vibe
+- **Fit**: An outfit that goes hard
+- **Vibe**: The energy, mood, or aesthetic you're serving
+- **No cap**: For real, honestly, seriously
+- **Bussin'**: Absolutely incredible, top-tier
+- **Iconic**: Legendary status, unforgettable
+- **Slay**: To absolutely dominate with your style
+
+### Content Guidelines
+- ✅ **DO:** Keep it real, keep it fresh, keep it 100
+- ✅ **DO:** Celebrate all styles from all cultures
+- ✅ **DO:** Make fashion accessible and exciting
+- ✅ **DO:** Use contemporary language that resonates globally
+- ❌ **DON'T:** Be boring or generic
+- ❌ **DON'T:** Use outdated slang or forced trends
+- ❌ **DON'T:** Appropriate without appreciation
 
 ## Implementation Examples
 
@@ -199,5 +229,7 @@ theme: {
 
 ---
 
-**SWAAGI** - Find Your Swag, Anywhere in the World 🌟
-*AI-powered style companion celebrating global diversity and confidence*
+**SWAAGI** - Your Drip Is Just A Vibe Away 🔥✨
+*Where AI meets drip. Where style meets confidence. Where you meet iconic.*
+
+**#SwaagiNation** | **#DrippedByAI** | **#FindYourSwag** | **#IconicEveryday**

@@ -10,7 +10,9 @@
 **Use of Funds:** Product development, team building, market entry  
 
 ### The Opportunity
-SWAAGI is positioned to capture a significant share of the $668B global fashion e-commerce market through our AI-powered style companion that helps everyone find their swag, anywhere in the world, transforming how consumers discover, visualize, and purchase clothing while celebrating global diversity.
+SWAAGI isn't just another fashion app—it's a movement. We're capturing the $668B global fashion e-commerce market by solving what no one else has: making AI actually understand style. 
+
+**The Pitch:** Your drip is just a vibe away. We're turning fashion discovery from a chore into a culture. From Gen Z to millennials, from Tokyo to Lagos, everyone deserves to feel iconic. We're making that happen with AI that doesn't just recommend—it *revolutionizes*.
 
 ## Investment Highlights
 

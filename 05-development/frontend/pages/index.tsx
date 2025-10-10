@@ -41,8 +41,8 @@ export default function HomePage() {
 
             {/* Hero Subtitle */}
             <p className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Your AI-powered style companion celebrating global diversity. 
-              Find your swag, anywhere in the world.
+              <span className="font-bold text-accent-600 dark:text-accent-400">Your drip is just a vibe away.</span>
+              {" "}AI-powered style that speaks your language. From Tokyo to Lagos, your next iconic fit starts here. 🔥
             </p>
 
             {/* CTA Buttons */}
@@ -51,12 +51,12 @@ export default function HomePage() {
                 href="/style"
                 className="group px-8 py-4 bg-accent-600 text-white rounded-lg font-semibold text-lg hover:bg-accent-700 transition-all duration-300 transform hover:scale-105 focus-ring flex items-center"
               >
-                Start Your Style Journey
+                Level Up Your Fit 🔥
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               
               <button className="px-8 py-4 border-2 border-accent-600 text-accent-600 dark:text-accent-400 rounded-lg font-semibold text-lg hover:bg-accent-50 dark:hover:bg-accent-900 transition-colors focus-ring">
-                Watch Demo
+                See The Magic ✨
               </button>
             </div>
           </motion.div>
@@ -74,10 +74,10 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-white mb-4">
-              Why Choose SWAAGI?
+              Why SWAAGI Is Different 💎
             </h2>
             <p className="text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
-              Experience fashion discovery like never before with our AI-powered style companion celebrating global diversity.
+              Not just another fashion app. This is where culture meets closet, where AI gets your vibe, and where your style evolution begins. No cap. 🚀
             </p>
           </motion.div>
 
@@ -85,19 +85,19 @@ export default function HomePage() {
             {[
               {
                 icon: Sparkles,
-                title: "AI Fashion Advisor",
-                description: "Get personalized styling advice from our culturally-aware AI that understands your unique preferences and celebrates your heritage.",
-                stats: "10K+ recommendations daily"
+                title: "AI That Gets Your Vibe",
+                description: "No more boring recommendations. Our AI speaks your style language—from streetwear to haute couture, we understand your drip.",
+                stats: "10K+ daily style matches 🔥"
               },
               {
                 icon: TrendingUp, 
-                title: "Global Trend Insights",
-                description: "Stay ahead with trend analysis from fashion capitals worldwide, including emerging African fashion movements.",
-                stats: "500+ trend updates weekly"
+                title: "Global Fashion Intel",
+                description: "Stay ahead of the curve. Get the latest from fashion capitals worldwide—Tokyo, Paris, New York, Lagos, London. Your trends, delivered fresh.",
+                stats: "500+ weekly trend drops 📈"
               },
               {
                 icon: Users,
-                title: "Sustainable Marketplace",
+                title: "Shop Without Limits",
                 description: "Shop from vetted ethical brands that prioritize sustainability and fair trade practices across all cultures.",
                 stats: "200+ ethical partners"
               }
