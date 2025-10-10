@@ -349,7 +349,7 @@ Authorization: Bearer {jwt_token}
       "violation_type": "inappropriate_cultural_reference",
       "suggestion": "Please review cultural guidelines and resubmit"
     },
-    "timestamp": "2024-01-15T10:30:00Z",
+    "timestamp": "2025-10-10T10:30:00Z",
     "request_id": "req_123456789"
   }
 }
@@ -428,7 +428,7 @@ analysis = client.style.analyze(
     "user_id": "user_456",
     "cultural_context": "west_african",
     "recommendations_count": 5,
-    "timestamp": "2024-01-15T10:30:00Z"
+    "timestamp": "2025-10-10T10:30:00Z"
   }
 }
 ```
@@ -442,7 +442,7 @@ analysis = client.style.analyze(
     "cultural_region": "african_diaspora",
     "significance_level": "high",
     "user_relevance_score": 92,
-    "timestamp": "2024-01-15T10:30:00Z"
+    "timestamp": "2025-10-10T10:30:00Z"
   }
 }
 ```

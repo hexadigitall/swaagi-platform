@@ -10,7 +10,7 @@ Making everyone feel iconic, everywhere. The style revolution powered by AI that
 
 **Seeking:** $1.2M Seed Round
 **Team:** [Founder Names]
-**Date:** 2024
+**Date:** 2025
 
 ---
 
@@ -76,7 +76,7 @@ Making everyone feel iconic, everywhere. The style revolution powered by AI that
 ## Slide 5: Market Opportunity
 ### Massive and Growing Market
 
-**$668 Billion** - Global Fashion E-commerce (2024)
+**$668 Billion** - Global Fashion E-commerce (2025)
 **11.1% CAGR** - Market growth rate
 **$156 Billion** - Serviceable market (US, EU, UK)
 
