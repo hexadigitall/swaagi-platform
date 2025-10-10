@@ -1,19 +1,25 @@
-# SWAAGI Brand Identity Guide 🌟✨
+# SWAAGI Brand Identity Guide
 
 ## Brand Overview
 
-**SWAAGI** - Where AI meets drip. Born from the culture, built for the world. 
+**SWAAGI** is an AI-powered personal styling platform that makes fashion discovery simple and personalized for everyone, everywhere.
 
-*"Your drip is just a vibe away."* - This isn't just fashion tech. This is a movement. A global style revolution powered by AI that understands one universal truth: **everyone deserves to look and feel iconic.**
+### Our Philosophy
+We believe finding your perfect style shouldn't be complicated. Everyone has their own unique aesthetic, and our job is to help them discover it—whether they're into streetwear, classic looks, or anything in between.
 
-SWAAGI is more than an app—it's your personal hype squad, style guru, and confidence amplifier rolled into one. We celebrate every fit, every culture, every vibe. From streetwear to runway, we got you covered. Period.
+### Brand Pillars
+- **Accessible**: Fashion guidance for everyone, not just those who can afford personal stylists
+- **Inclusive**: We celebrate all styles across all cultures
+- **Smart**: AI technology that actually understands personal preferences
+- **Global**: Connecting people with fashion from around the world
+- **Authentic**: Real recommendations based on real style, not just algorithms
 
-### The SWAAGI Vibe
-- 🔥 **Trendsetting**: We don't follow trends, we create them
-- ✨ **Inclusive**: Your style, your rules, your swag
-- 💎 **Authentic**: Real recommendations for real people
-- 🌍 **Global**: Fashion without borders
-- 🚀 **Innovative**: AI that actually gets your vibe
+### Brand Personality
+- Friendly but knowledgeable
+- Confident but not arrogant
+- Modern but timeless
+- Professional but approachable
+- Global but culturally aware
 
 ## Logo System
 
