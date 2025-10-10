@@ -1,7 +1,7 @@
 {
-  "name": "DARA - AI Fashion Platform",
-  "short_name": "DARA",
-  "description": "AI-powered fashion platform offering personalized styling recommendations and sustainable fashion marketplace",
+  "name": "SWAAGI - AI Style Companion",
+  "short_name": "SWAAGI",
+  "description": "Your AI-powered style companion. Find your swag, anywhere in the world. Personalized styling celebrating global diversity.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -29,10 +29,10 @@
   "categories": ["fashion", "shopping", "lifestyle"],
   "screenshots": [
     {
-      "src": "/logos/dara-logo-large.png",
+      "src": "/logos/swaagi-logo-large.png",
       "sizes": "800x240",
       "type": "image/png",
-      "label": "DARA AI Fashion Platform"
+      "label": "SWAAGI AI Style Companion"
     }
   ]
 }

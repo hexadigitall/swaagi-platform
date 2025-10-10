@@ -1,8 +1,8 @@
-# Dara: AI Fashion Stylist App 🎨👗
+# Swaagi: AI Fashion Stylist App 🎨👗
 
 ## Project Overview
 
-**Dara** - An innovative AI-powered fashion recommendation app that transforms how users discover, visualize, and purchase clothing. Users describe their desired style and concept through natural language prompts, and the app generates personalized clothing options with realistic visualizations showing how items would look on them, complete with direct purchasing capabilities from multiple retailers.
+**Swaagi** - Your AI-powered style companion, delivering personalized fashion recommendations and celebrating global diversity. With Swaagi, everyone finds their swag—anywhere in the world. An innovative AI-powered fashion platform that transforms how users discover, visualize, and purchase clothing through natural language prompts, generating personalized clothing options with realistic visualizations and direct purchasing capabilities from multiple retailers.
 
 ## 🌟 Features
 
@@ -39,7 +39,7 @@
 
 ## 🚀 Live Demo
 
-Visit the live application: **[DARA Platform](https://styleai-platform.vercel.app)** *(will be updated after deployment)*
+Visit the live application: **[SWAAGI Platform](https://swaagi-platform.vercel.app)** *(will be updated after deployment)*
 
 ## 📱 Screenshots
 
@@ -70,7 +70,7 @@ Visit the live application: **[DARA Platform](https://styleai-platform.vercel.ap
 ## 🏗 Project Structure
 
 ```
-styleai-platform/
+swaagi-platform/
 ├── 05-development/
 │   ├── frontend/          # Next.js React application
 │   │   ├── components/    # Reusable UI components
@@ -98,8 +98,8 @@ styleai-platform/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/hexadigitall/dara-platform.git
-   cd dara-platform
+   git clone https://github.com/hexadigitall/swaagi-platform.git
+   cd swaagi-platform
    ```
 
 2. **Install dependencies**
@@ -186,16 +186,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙋‍♀️ Support
 
-- **Documentation**: [docs.dara.com](https://docs.dara.com)
-- **Email**: support@dara.com
-- **Discord**: [DARA Community](https://discord.gg/dara)
-- **Issues**: [GitHub Issues](https://github.com/hexadigitall/dara-platform/issues)
+- **Documentation**: [docs.swaagi.com](https://docs.swaagi.com)
+- **Email**: support@swaagi.com
+- **Discord**: [SWAAGI Community](https://discord.gg/swaagi)
+- **Issues**: [GitHub Issues](https://github.com/hexadigitall/swaagi-platform/issues)
 
 ## 👥 Team
 
-Built with ❤️ by the DARA team:
+Built with ❤️ by the SWAAGI team:
 - Fashion AI Technology
-- Sustainable Fashion Advocacy
+- Global Style Innovation
 - User-Centered Design
 
 ---

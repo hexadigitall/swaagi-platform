@@ -1,10 +1,10 @@
-# 🚀 DARA Deployment Guide
+# 🚀 SWAAGI Deployment Guide
 
 ## Step 1: Create GitHub Repository
 
 1. **Go to GitHub** → https://github.com/new
-2. **Repository name:** `dara-platform`
-3. **Description:** `Beautiful AI Fashion for Everyone - Personalized styling recommendations and sustainable fashion marketplace`
+2. **Repository name:** `swaagi-platform`
+3. **Description:** `SWAAGI - Your AI-powered style companion. Find your swag, anywhere in the world. Personalized styling recommendations celebrating global diversity.`
 4. **Visibility:** Choose Public or Private
 5. **DON'T initialize** with README, .gitignore, or license (we already have them)
 6. **Click "Create repository"**
@@ -15,7 +15,7 @@ Copy your repository URL and run these commands:
 
 ```bash
 # Replace YOUR_USERNAME with your GitHub username
-git remote add origin https://github.com/YOUR_USERNAME/dara-platform.git
+git remote add origin https://github.com/YOUR_USERNAME/swaagi-platform.git
 git branch -M main
 git push -u origin main
 ```
@@ -26,7 +26,7 @@ git push -u origin main
 1. Go to **https://vercel.com**
 2. Sign in with your GitHub account
 3. Click **"New Project"**
-4. **Import** your `dara-platform` repository
+4. **Import** your `swaagi-platform` repository
 5. **Framework Preset:** Next.js (should auto-detect)
 6. **Root Directory:** `05-development/frontend`
 7. **Build Command:** `npm run build` (should auto-fill)
@@ -51,8 +51,8 @@ npx vercel --prod
 ## Step 5: Test Your Deployed App
 
 Your app will be available at a URL like:
-- `https://dara-platform.vercel.app`
-- Or a custom domain if you set one up
+- `https://swaagi-platform.vercel.app`
+- Or a custom domain if you set one up (e.g., `swaagi.com`, `swaagi.app`)
 
 ## 🎯 Expected Results
 
