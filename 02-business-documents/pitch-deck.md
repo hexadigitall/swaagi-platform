@@ -1,14 +1,14 @@
-# StyleAI - Investor Pitch Deck
+# SWAAGI - Investor Pitch Deck
 
 ## Slide 1: Title Slide
-**DARA**
-*Your AI Fashion Companion*
+**SWAAGI**
+*Your AI-Powered Style Companion*
 
-"Making every human their most stylish self through conversational AI"
+"Find Your Swag, Anywhere in the World - Making everyone their most stylish self through AI"
 
 **Seeking:** $1.2M Seed Round
 **Team:** [Founder Names]
-**Date:** September 2024
+**Date:** 2024
 
 ---
 
@@ -26,27 +26,27 @@
 ---
 
 ## Slide 3: Solution
-### Meet DARA: Your Conversational Fashion Companion
+### Meet SWAAGI: Your AI-Powered Style Companion
 
 **Natural Language Styling:**
 *"I need something professional but approachable for client meetings"*
 
 **AI Generates:**
-- Personalized outfit combinations
+- Personalized outfit combinations from global brands
 - Cross-retailer product matching
 - Virtual try-on visualization
 - One-click purchasing
 
-**From Inspiration to Purchase in 60 seconds**
+**From Inspiration to Purchase in 60 seconds - Find Your Swag Anywhere**
 
 ---
 
 ## Slide 4: Product Demo
-### How DARA Works
+### How SWAAGI Works
 
 1. **User Input:** "Show me edgy street style for weekend brunch"
-2. **AI Processing:** Style analysis + trend matching + personalization
-3. **Results:** Curated outfits from multiple brands
+2. **AI Processing:** Global style analysis + trend matching + personalization
+3. **Results:** Curated outfits from international brands
 4. **Visualization:** Virtual try-on with user's body type
 5. **Purchase:** Single checkout across retailers
 
@@ -195,7 +195,7 @@
 ---
 
 ## Slide 13: Funding & Use of Funds
-### $1.2M Seed Round
+### $1.2M Seed Round - Help Everyone Find Their Swag
 
 **Use of Funds:**
 - **Product Development (42%):** $500K

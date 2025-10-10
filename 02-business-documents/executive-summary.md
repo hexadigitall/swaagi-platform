@@ -1,11 +1,11 @@
-# DARA - Executive Summary
+# SWAAGI - Executive Summary
 
 ## 🎯 Business Overview
 
-**Company Name:** DARA  
-**Mission:** Democratize personal styling through conversational AI, making fashion accessible, personalized, and seamlessly shoppable for everyone.
+**Company Name:** SWAAGI  
+**Mission:** Help everyone find their swag, anywhere in the world. Democratize personal styling through AI, making fashion accessible, personalized, and celebrating global diversity.
 
-**Vision:** To become the world's first AI fashion companion that understands style as intuitively as a human stylist while providing instant access to global fashion inventory.
+**Vision:** To become the world's premier AI-powered style companion that understands international fashion trends and helps everyone discover their unique swag while providing instant access to global fashion inventory.
 
 ## 💡 The Problem We Solve
 
@@ -21,13 +21,15 @@
 - Virtual try-on technology exists but isn't integrated with comprehensive shopping
 - AI fashion recommendations are basic and don't understand nuanced style preferences
 
-## 🚀 Our Solution: DARA
+## 🚀 Our Solution: SWAAGI
 
 ### Core Innovation:
-**Conversational Fashion Intelligence** - Users simply describe their style needs in natural language:
+**AI-Powered Style Companion** - Users simply describe their style needs in natural language:
 - "I need something chic but comfortable for a weekend brunch with friends"
 - "Show me professional outfits that work for video calls but are comfortable"
 - "I want to look edgy and artistic for a gallery opening"
+
+**Find Your Swag** - Celebrating confidence, style, and global diversity
 
 ### Key Features:
 
@@ -74,10 +76,10 @@
    - Target: 50,000 transactions/month by Year 2
 
 2. **Premium Subscriptions (25% of revenue)**
-   - DARA Pro: $9.99/month
+   - SWAAGI Pro: $9.99/month
      - Unlimited styling requests
      - Advanced virtual try-on
-     - Early access to trends
+     - Early access to global trends
      - Personal style consultant
    - Target: 10,000 subscribers by Year 2
 
