@@ -192,16 +192,16 @@ services:
 version: '3.8'
 
 services:
-  dara-frontend:
-    image: ${DOCKER_REGISTRY}/dara-frontend:${VERSION}
+  swaagi-frontend:
+    image: ${DOCKER_REGISTRY}/swaagi-frontend:${VERSION}
     environment:
       - NODE_ENV=production
-      - NEXT_PUBLIC_API_URL=https://api.dara.fashion
-      - NEXT_PUBLIC_CULTURAL_API_URL=https://cultural.dara.fashion
+      - NEXT_PUBLIC_API_URL=https://api.swaagi.fashion
+      - NEXT_PUBLIC_CULTURAL_API_URL=https://cultural.swaagi.fashion
       - NEXT_PUBLIC_SENTRY_DSN=${SENTRY_DSN}
 
-  dara-backend:
-    image: ${DOCKER_REGISTRY}/dara-backend:${VERSION}
+  swaagi-backend:
+    image: ${DOCKER_REGISTRY}/swaagi-backend:${VERSION}
     environment:
       - ENVIRONMENT=production
       - DATABASE_URL=${PRODUCTION_DATABASE_URL}
@@ -301,23 +301,23 @@ spec:
   template:
     metadata:
       labels:
-        app: dara-backend
+        app: swaagi-backend
     spec:
       containers:
       - name: backend
-        image: dara/backend:latest
+        image: swaagi/backend:latest
         ports:
         - containerPort: 8000
         env:
         - name: DATABASE_URL
           valueFrom:
             secretKeyRef:
-              name: dara-secrets
+              name: swaagi-secrets
               key: database-url
         - name: CULTURAL_DATA_ENCRYPTION_KEY
           valueFrom:
             secretKeyRef:
-              name: dara-secrets
+              name: swaagi-secrets
               key: cultural-encryption-key
         resources:
           requests:
@@ -335,21 +335,21 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dara-cultural-ai
+  name: swaagi-cultural-ai
   namespace: swaagi-platform
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: dara-cultural-ai
+      app: swaagi-cultural-ai
   template:
     metadata:
       labels:
-        app: dara-cultural-ai
+        app: swaagi-cultural-ai
     spec:
       containers:
       - name: cultural-ai
-        image: dara/cultural-ai:latest
+        image: swaagi/cultural-ai:latest
         ports:
         - containerPort: 8001
         env:
@@ -360,7 +360,7 @@ spec:
         - name: CULTURAL_CONSULTANT_API_KEY
           valueFrom:
             secretKeyRef:
-              name: dara-secrets
+              name: swaagi-secrets
               key: cultural-consultant-api-key
         resources:
           requests:
@@ -507,7 +507,7 @@ if __name__ == "__main__":
 ### GitHub Actions Workflow
 
 ```yaml
-# .github/workflows/dara-deployment.yml
+# .github/workflows/swaagi-deployment.yml
 name: SWAAGI Platform Deployment
 
 on:
@@ -518,7 +518,7 @@ on:
 
 env:
   DOCKER_REGISTRY: ghcr.io/your-org
-  KUBERNETES_CLUSTER: dara-production
+  KUBERNETES_CLUSTER: swaagi-production
 
 jobs:
   cultural-sensitivity-check:
@@ -580,13 +580,13 @@ jobs:
       
       - name: Build Docker Image
         run: |
-          docker build -t ${DOCKER_REGISTRY}/dara-${{ matrix.service }}:${{ github.sha }} \
+          docker build -t ${DOCKER_REGISTRY}/swaagi-${{ matrix.service }}:${{ github.sha }} \
             -f ${{ matrix.service }}/Dockerfile .
       
       - name: Run Security Scan
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: ${DOCKER_REGISTRY}/dara-${{ matrix.service }}:${{ github.sha }}
+          image-ref: ${DOCKER_REGISTRY}/swaagi-${{ matrix.service }}:${{ github.sha }}
           format: 'sarif'
           output: 'trivy-results.sarif'
 
@@ -611,9 +611,9 @@ jobs:
           kubectl apply -f k8s/staging/
           
           # Wait for rollout
-          kubectl rollout status deployment/dara-frontend -n dara-staging
-          kubectl rollout status deployment/dara-backend -n dara-staging
-          kubectl rollout status deployment/dara-cultural-ai -n dara-staging
+          kubectl rollout status deployment/swaagi-frontend -n swaagi-staging
+          kubectl rollout status deployment/swaagi-backend -n swaagi-staging
+          kubectl rollout status deployment/swaagi-cultural-ai -n swaagi-staging
       
       - name: Run Integration Tests
         run: |
@@ -670,23 +670,23 @@ global:
   evaluation_interval: 15s
 
 rule_files:
-  - "dara-rules.yml"
+  - "swaagi-rules.yml"
   - "cultural-sensitivity-rules.yml"
 
 scrape_configs:
-  - job_name: 'dara-frontend'
+  - job_name: 'swaagi-frontend'
     static_configs:
-      - targets: ['dara-frontend:3000']
+      - targets: ['swaagi-frontend:3000']
     metrics_path: /api/metrics
     
-  - job_name: 'dara-backend'
+  - job_name: 'swaagi-backend'
     static_configs:
-      - targets: ['dara-backend:8000']
+      - targets: ['swaagi-backend:8000']
     metrics_path: /metrics
     
   - job_name: 'cultural-ai-service'
     static_configs:
-      - targets: ['dara-cultural-ai:8001']
+      - targets: ['swaagi-cultural-ai:8001']
     metrics_path: /metrics
 
   - job_name: 'cultural-compliance'
@@ -814,7 +814,7 @@ data:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: dara-cultural-data-protection
+  name: swaagi-cultural-data-protection
   namespace: swaagi-platform
 spec:
   podSelector:
@@ -863,7 +863,7 @@ gpg --symmetric --cipher-algo AES256 \
 
 # Upload to secure storage with cultural data compliance
 aws s3 cp cultural_data_backup_*.sql.gpg \
-  s3://dara-cultural-backups/ \
+  s3://swaagi-cultural-backups/ \
   --storage-class STANDARD_IA \
   --server-side-encryption AES256
 

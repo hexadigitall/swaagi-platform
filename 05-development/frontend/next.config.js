@@ -4,7 +4,7 @@ const nextConfig = {
   
   // Image optimization
   images: {
-    domains: ['styleai.com', 'cdn.styleai.com', 'images.unsplash.com'],
+    domains: ['swaagi.com', 'cdn.swaagi.com', 'images.unsplash.com'],
     formats: ['image/webp', 'image/avif'],
   },
   
