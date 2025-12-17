@@ -230,9 +230,9 @@ Our AI creates complete outfit combinations from millions of products across par
 ---
 
 **Contact Information:**
-- **Email**: team@dara.com
-- **Website**: www.dara.com
-- **LinkedIn**: /company/dara
+- **Email**: team@swaagi.com
+- **Website**: www.swaagi.com
+- **LinkedIn**: /company/swaagi
 - **Location**: San Francisco, CA
 
 *"Making every human their most stylish self through the power of AI"*

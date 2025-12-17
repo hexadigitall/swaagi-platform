@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# StyleAI Preview Server Setup
+# SWAAGI Preview Server Setup
 # This script sets up and runs the development server for preview
 
 set -e
 
-echo "🎨 StyleAI Preview Server Setup"
+echo "🎨 SWAAGI Preview Server Setup"
 echo "================================"
 
 # Colors for output
@@ -99,7 +99,7 @@ if [ ! -f ".next/static/css/app.css" ]; then
 fi
 
 echo ""
-echo "🚀 Starting StyleAI Development Server..."
+echo "🚀 Starting SWAAGI Development Server..."
 echo "========================================="
 echo ""
 echo "The application will be available at:"

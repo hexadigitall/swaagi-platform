@@ -124,7 +124,7 @@ services:
   postgres:
     image: postgres:15
     environment:
-      POSTGRES_DB: styleai_dev
+      POSTGRES_DB: swaagi_dev
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
@@ -146,7 +146,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/styleai_dev
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/swaagi_dev
       - REDIS_URL=redis://redis:6379
     depends_on:
       - postgres
@@ -182,7 +182,7 @@ volumes:
 ## Project Structure
 
 ```
-styleai-platform/
+swaagi-platform/
 ├── backend/                 # FastAPI backend services
 │   ├── app/
 │   │   ├── api/            # API routes
@@ -232,7 +232,7 @@ styleai-platform/
 ### Backend (.env)
 ```bash
 # Database
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/styleai_dev
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/swaagi_dev
 REDIS_URL=redis://localhost:6379
 
 # Security
@@ -254,7 +254,7 @@ SHOPIFY_API_SECRET=your-shopify-secret
 # AWS (for production)
 AWS_ACCESS_KEY_ID=your-aws-access-key
 AWS_SECRET_ACCESS_KEY=your-aws-secret-key
-AWS_S3_BUCKET=styleai-assets
+AWS_S3_BUCKET=swaagi-assets
 ```
 
 ### Frontend (.env.local)
@@ -271,14 +271,14 @@ NEXTAUTH_SECRET=your-nextauth-secret
 ### PostgreSQL Schema Initialization
 ```sql
 -- Create development database
-CREATE DATABASE styleai_dev;
+CREATE DATABASE swaagi_dev;
 
 -- Create test database
-CREATE DATABASE styleai_test;
+CREATE DATABASE swaagi_test;
 
 -- Create user (optional)
-CREATE USER styleai_dev WITH PASSWORD 'styleai_dev';
-GRANT ALL PRIVILEGES ON DATABASE styleai_dev TO styleai_dev;
+CREATE USER swaagi_dev WITH PASSWORD 'swaagi_dev';
+GRANT ALL PRIVILEGES ON DATABASE swaagi_dev TO swaagi_dev;
 ```
 
 ### Run Migrations
@@ -418,7 +418,7 @@ docker-compose down -v
 docker-compose up -d
 
 # Database shell
-docker-compose exec postgres psql -U postgres styleai_dev
+docker-compose exec postgres psql -U postgres swaagi_dev
 
 # Redis CLI
 docker-compose exec redis redis-cli
@@ -478,8 +478,8 @@ docker-compose logs api
 docker-compose exec postgres pg_isready -U postgres
 
 # Reset database
-docker-compose exec postgres dropdb -U postgres styleai_dev
-docker-compose exec postgres createdb -U postgres styleai_dev
+docker-compose exec postgres dropdb -U postgres swaagi_dev
+docker-compose exec postgres createdb -U postgres swaagi_dev
 ```
 
 #### Node Modules Issues
@@ -506,4 +506,4 @@ cd frontend && npm install
 5. **Configure CI/CD**: GitHub Actions for automated testing
 6. **Deploy Staging**: AWS staging environment setup
 
-This development environment provides a solid foundation for building StyleAI efficiently and collaboratively.
+This development environment provides a solid foundation for building SWAAGI efficiently and collaboratively.

@@ -184,20 +184,20 @@ CREATE TABLE cultural_trends (
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dara-api
+  name: swaagi-api
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: dara-api
+      app: swaagi-api
   template:
     metadata:
       labels:
-        app: dara-api
+        app: swaagi-api
     spec:
       containers:
       - name: api
-        image: dara/api:latest
+        image: swaagi/api:latest
         resources:
           requests:
             memory: "512Mi"

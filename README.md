@@ -238,3 +238,11 @@ Built by people who get it. For people who get it.
 *Powered by culture. Built by [Hexadigitall](https://hexadigitall.com). Made for everyone who refuses to be basic.*
 
 **#SwaagiNation** | **#DrippedByAI** | **#FindYourSwag** | **#IconicEveryday**
+
+---
+
+## 📝 Rebranding Note
+
+This project was previously known as "DARA" and "StyleAI" during early development phases. As of November 2025, the platform has been officially rebranded to **SWAAGI** to better reflect our core mission: delivering an AI-powered fashion platform that helps everyone find their perfect style. All references throughout the codebase, documentation, configuration, and assets have been updated to use the SWAAGI branding consistently.
+
+**SWAAGI** is an AI-powered fashion platform that celebrates global diversity while drawing inspiration from African design traditions.

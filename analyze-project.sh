@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# StyleAI Project Analysis Tool
+# SWAAGI Project Analysis Tool
 # Shows project structure and key information for review
 
-echo "🎨 StyleAI Project Analysis"
+echo "🎨 SWAAGI Project Analysis"
 echo "=========================="
 echo ""
 
 # Project overview
 echo "📊 Project Overview:"
-echo "• Project Name: StyleAI - AI Fashion Companion"
+echo "• Project Name: SWAAGI - AI Fashion Companion"
 echo "• Type: Full-stack web application"
 echo "• Frontend: Next.js + React + TypeScript + Tailwind CSS"
 echo "• Backend: FastAPI + Python"
