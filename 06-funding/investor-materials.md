@@ -303,9 +303,9 @@ SWAAGI isn't just another fashion app—it's a movement. We're capturing the $66
 ---
 
 **Investment Contact:**  
-📧 investors@styleai.com  
+📧 investors@swaagi.com  
 📞 +1 (555) 123-4567  
-🌐 www.styleai.com/investors  
+🌐 www.swaagi.com/investors  
 
 *"Investing in the future of fashion discovery and personal expression through AI"*
 

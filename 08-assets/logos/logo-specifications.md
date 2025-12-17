@@ -2,60 +2,47 @@
 
 ## Logo Variations Available
 
-### Primary Logo (`swaagi-logo.svg`)
-- **Usage**: Main applications, website header, business cards, marketing materials
+### Primary Logo (`swaagi-logo-primary.svg`)
+- **Usage**: Main applications, website header, business cards
 - **Format**: SVG (scalable vector)
-- **Colors**: Golden amber gradient (#D97706 to #FBBF24)
+- **Colors**: Golden gradient (#D4AF37 to #B8860B)
 - **Size**: Optimized for web and print
-- **Contains**: Full wordmark with modern 'S' symbol and tagline "YOUR DRIP IS JUST A VIBE AWAY"
 
-### Logo Mark (`swaagi-mark.svg`) 
-- **Usage**: Favicons, app icons, social media profiles, small applications
+### Logo Icon (`swaagi-icon.svg`) 
+- **Usage**: Favicons, app icons, small applications
 - **Format**: SVG, multiple PNG sizes
 - **Sizes**: 16x16, 32x32, 64x64, 128x128, 256x256, 512x512
-- **Style**: Standalone 'S' symbol with contemporary geometric design
+- **Style**: Simplified "S" with modern design pattern
 
-### Logo PNG Versions
-- **Large**: 800x240px - Marketing materials, social media covers
-- **Medium**: 400x120px - Website headers, presentations
-- **Small**: 200x60px - Email signatures, small applications
+### Horizontal Logo (`swaagi-logo-horizontal.svg`)
+- **Usage**: Email signatures, footers, wide format applications
+- **Format**: SVG with PNG fallbacks
+- **Aspect ratio**: Approximately 4:1
 
 ## Logo Files Created
 
-The following logo files have been generated and are available in the project:
+The following logo files have been generated using ImageMagick and are available in the project:
 
-1. **Main Logo** (`public/logos/swaagi-logo.svg`) - Modern design with golden gradients and street style aesthetic
-2. **Logo Mark** (`public/logos/swaagi-mark.svg`) - Standalone 'S' symbol for compact applications
-3. **PNG Logos** - Multiple sizes (large, medium, small) for various use cases
-4. **PNG Marks** - Multiple sizes (16, 32, 64, 128, 256, 512) for icons and favicons
-5. **Favicon Set** - Complete favicon package (favicon.ico, favicon-16x16.png, favicon-32x32.png)
-6. **App Icons** - Android and iOS icons (android-chrome-192x192.png, android-chrome-512x512.png, apple-touch-icon.png)
+1. **Main Logo** (`public/swaagi-logo.svg`) - Modern design with golden gradients
+2. **Favicon Set** - Multiple sizes for web applications
+3. **Logo Variations** - Different formats and sizes for adaptive use
 
 ## Usage Guidelines
 
 ### Minimum Sizes
-- **Web**: 24px height minimum for logo mark, 60px height minimum for full logo
+- **Web**: 24px height minimum
 - **Print**: 0.75 inches height minimum
 - **Favicon**: 16x16px minimum
 
 ### Clear Space
-- Maintain clear space equal to the height of the 'S' symbol in the logo
+- Maintain clear space equal to the height of the "S" in the logo
 - No text or graphics within the clear space area
 
 ### Color Specifications
-- **Amber 600**: #D97706 - Primary gradient start
-- **Amber 500**: #F59E0B - Primary gradient middle (theme color)
-- **Amber 400**: #FBBF24 - Primary gradient end
-- **Red 900**: #7C2D12 - Accent gradient start
-- **Red 600**: #DC2626 - Accent gradient end
-
-### Brand Voice
-- Bold, confident, authentic
-- Contemporary street style aesthetic
-- Global, inclusive, culturally fluent
-- High-energy and trend-forward
+- **Primary Gold**: #D4AF37 (Pantone 124 C equivalent)
+- **Dark Gold**: #B8860B (Pantone 125 C equivalent)  
+- **Cultural Blue**: #1E3A8A (Pantone 295 C equivalent)
 
 ---
 
-*SWAAGI - Your Drip Is Just A Vibe Away 🔥*
-*Where AI meets drip. Where style meets confidence. Where you meet iconic.*
+*Logo designs created with cultural appreciation and modern aesthetics.*

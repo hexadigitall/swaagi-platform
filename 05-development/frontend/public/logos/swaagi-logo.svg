@@ -24,18 +24,20 @@
   <!-- Background circle with modern pattern inspiration -->
   <circle cx="60" cy="60" r="50" fill="url(#brandGradient)" opacity="0.15"/>
   
-  <!-- Stylized 'S' with geometric pattern -->
-  <path d="M 65 25 Q 45 25 35 35 Q 25 45 35 55 L 45 55 Q 50 50 55 50 Q 65 50 65 40 Q 65 30 55 30 Q 30 30 25 40 Q 20 50 25 65 Q 30 80 45 85 Q 60 90 70 80 Q 80 70 70 60 L 60 60 Q 55 65 50 65 Q 40 65 40 75 Q 40 85 50 85 Q 75 85 80 75 Q 85 65 80 50 Q 75 35 60 30 Q 50 25 65 25 Z" 
-        fill="url(#brandGradient)" 
-        stroke="url(#accentGradient)" 
-        stroke-width="2"/>
+  <!-- Stylized 'S' with geometric modern pattern -->
+  <path d="M70 25 Q20 25 20 47.5 Q20 60 45 60 Q70 60 70 72.5 Q70 95 20 95" 
+        fill="none" 
+        stroke="url(#brandGradient)" 
+        stroke-width="12"
+        stroke-linecap="round"/>
         
-  <!-- Decorative dots (modern-inspired) -->
-  <circle cx="85" cy="35" r="2" fill="#FBBF24"/>
-  <circle cx="88" cy="45" r="1.5" fill="#F59E0B"/>
-  <circle cx="85" cy="55" r="2" fill="#FBBF24"/>
-  <circle cx="35" cy="75" r="1.5" fill="#F59E0B"/>
-  <circle cx="32" cy="65" r="2" fill="#FBBF24"/>
+  <!-- Decorative dots (modern design-inspired) -->
+  <circle cx="75" cy="35" r="2" fill="#FBBF24"/>
+  <circle cx="80" cy="45" r="1.5" fill="#F59E0B"/>
+  <circle cx="75" cy="55" r="2" fill="#FBBF24"/>
+  <circle cx="80" cy="65" r="1.5" fill="#F59E0B"/>
+  <circle cx="75" cy="75" r="2" fill="#FBBF24"/>
+  <circle cx="80" cy="85" r="1.5" fill="#F59E0B"/>
   
   <!-- SWAAGI text -->
   <text x="100" y="70" 
@@ -51,11 +53,11 @@
         font-size="12" 
         font-weight="400" 
         fill="#6B7280"
-        letter-spacing="2px">YOUR DRIP IS JUST A VIBE AWAY</text>
+        letter-spacing="2px">AI FASHION PLATFORM</text>
         
   <!-- Accent elements -->
-  <rect x="100" y="92" width="50" height="2" fill="url(#accentGradient)" rx="1"/>
-  <rect x="155" y="94" width="25" height="1" fill="url(#brandGradient)" rx="0.5"/>
+  <rect x="100" y="92" width="40" height="2" fill="url(#accentGradient)" rx="1"/>
+  <rect x="145" y="94" width="20" height="1" fill="url(#brandGradient)" rx="0.5"/>
   
   <!-- Decorative modern geometric elements -->
   <polygon points="350,20 360,35 370,20 380,35 390,20" 

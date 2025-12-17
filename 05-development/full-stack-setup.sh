@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# StyleAI Full Stack Development Setup
+# SWAAGI Full Stack Development Setup
 # This script sets up the complete development environment
 
 set -e
 
-echo "🚀 StyleAI Full Stack Development Setup"
+echo "🚀 SWAAGI Full Stack Development Setup"
 echo "======================================="
 echo ""
 
@@ -77,7 +77,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
 app = FastAPI(
-    title="StyleAI API",
+    title="SWAAGI API",
     description="Conversational AI Fashion Platform",
     version="1.0.0"
 )
@@ -92,11 +92,11 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return {"message": "StyleAI API is running!", "status": "healthy"}
+    return {"message": "SWAAGI API is running!", "status": "healthy"}
 
 @app.get("/health")
 async def health_check():
-    return {"status": "healthy", "service": "StyleAI API"}
+    return {"status": "healthy", "service": "SWAAGI API"}
 
 @app.post("/api/v1/style/analyze")
 async def analyze_style(request: dict):
@@ -134,7 +134,7 @@ log "Setting up AI services..."
 mkdir -p ai-services/{style_processor,recommendation_engine,virtual_tryron}
 
 cat > ai-services/style_processor/main.py << 'AI'
-# StyleAI - Style Processing Service
+# SWAAGI - Style Processing Service
 import openai
 from typing import Dict, List
 import json
@@ -186,7 +186,7 @@ log "Setting up database configurations..."
 mkdir -p database/{migrations,seeds,schemas}
 
 cat > database/schemas/user_schema.sql << 'SQL'
--- StyleAI Database Schema
+-- SWAAGI Database Schema
 
 -- Users table
 CREATE TABLE IF NOT EXISTS users (
@@ -225,9 +225,9 @@ services:
   # PostgreSQL Database
   postgres:
     image: postgres:15-alpine
-    container_name: styleai_postgres
+    container_name: swaagi_postgres
     environment:
-      POSTGRES_DB: styleai_dev
+      POSTGRES_DB: swaagi_dev
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
@@ -244,7 +244,7 @@ services:
   # Redis Cache
   redis:
     image: redis:7-alpine
-    container_name: styleai_redis
+    container_name: swaagi_redis
     ports:
       - "6379:6379"
     command: redis-server --appendonly yes
@@ -256,13 +256,13 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: styleai_api
+    container_name: swaagi_api
     ports:
       - "8000:8000"
     volumes:
       - ./backend:/app
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/styleai_dev
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/swaagi_dev
       - REDIS_URL=redis://redis:6379
       - OPENAI_API_KEY=${OPENAI_API_KEY}
     depends_on:
@@ -276,7 +276,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile.dev
-    container_name: styleai_frontend
+    container_name: swaagi_frontend
     ports:
       - "3000:3000"
     volumes:
@@ -292,7 +292,7 @@ services:
     build:
       context: ./ai-services
       dockerfile: Dockerfile
-    container_name: styleai_ai
+    container_name: swaagi_ai
     ports:
       - "8001:8001"
     environment:
@@ -308,16 +308,16 @@ volumes:
 
 networks:
   default:
-    name: styleai_network
+    name: swaagi_network
 DOCKER
 
 # Create environment template
 log "Creating environment configuration..."
 cat > .env.template << 'ENV'
-# StyleAI Environment Configuration
+# SWAAGI Environment Configuration
 
 # Database
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/styleai_dev
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/swaagi_dev
 REDIS_URL=redis://localhost:6379
 
 # Security
@@ -342,7 +342,7 @@ SENDGRID_API_KEY=your-sendgrid-api-key
 # AWS (Optional for production)
 AWS_ACCESS_KEY_ID=your-aws-access-key
 AWS_SECRET_ACCESS_KEY=your-aws-secret-key
-AWS_S3_BUCKET=styleai-assets
+AWS_S3_BUCKET=swaagi-assets
 
 # Development
 NODE_ENV=development
@@ -355,7 +355,7 @@ mkdir -p scripts
 
 cat > scripts/dev-start.sh << 'DEV'
 #!/bin/bash
-echo "Starting StyleAI Full Stack Development..."
+echo "Starting SWAAGI Full Stack Development..."
 
 # Start backend
 cd backend && source venv/bin/activate && python main.py &
